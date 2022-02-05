@@ -58,7 +58,7 @@ export default function RecipeReviewCard() {
             <div>October 2021 (1 month)</div>
             <ul>
               <li>Contributed to open source by writing and submitting three projects which were approved by the admin of the repo I contributed to</li>
-              <li>Got to be part of their discord channel where I've seen and learnt a lot.</li>
+              <li>Got to be part of their discord channel where I`'`ve seen and learnt a lot.</li>
             </ul>
           </Col>
 
