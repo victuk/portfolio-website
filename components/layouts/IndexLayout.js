@@ -1,18 +1,14 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import axios from 'axios'
 import { Row, Col } from 'antd';
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Nav from '../navs/IndexNav'
-import Sidebar from '../Sidebar'
-
 
 export default function DefaultLayout({children}) {
   return (
     <div style={{height: '100vh'}}>
     <Nav />
    
-    <Image src="/note-background.jpg" layout="fill" style={{zIndex: '2'}} />
+    <Image src="/beautiful-wallpaper.jpg" layout="fill" className="bg" />
 
 <main>
 
@@ -21,6 +17,13 @@ export default function DefaultLayout({children}) {
 </Row>
 
 </main>
+<style>
+        {`
+        .bg {
+          filter: brightness(0.2);
+        }
+        `}
+      </style>
     </div>
   );
 }

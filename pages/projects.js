@@ -1,19 +1,6 @@
-import React, { useState, useEffect, useContext, createContext, useReducer } from 'react';
-import axios from 'axios';
-import { Button, Divider, Input, Typography } from 'antd';
-import Image from 'next/image';
-import Link from 'next/link';
-import { Provider, useSelector } from 'react-redux';
-import store from '../store/notestore';
+import React from 'react';
+import { Row, Col } from 'antd';
 import Layout from '../components/layouts/IndexLayout';
-import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
-import {counterReducer, initialstate} from '../store/notestore';
-import loginCheck from '../services/checkIfLoggedIn';
-import { useRouter } from 'next/router';
-
-// const { Header, Content, Footer, Sider } = Layout;
-// const { TextArea } = Input;
-const { Title } = Typography;
 
 
 
@@ -21,16 +8,90 @@ export default function RecipeReviewCard() {
 
   return (
     <div>
-    
-    <div style={{ display: 'flex', height: '75vh', width: '100%', justifyContent: 'center',
-    alignItems: 'center', flexDirection: 'column', zIndex: '10'}}>
-      <h1 style={{zIndex: 'inherit', color: 'white'}}>Welcome to VNote</h1>
-      <Title style={{zIndex: 'inherit', color: 'white', textAlign: 'center'}}>Create, save, edit notes quickly</Title>
-      <div style={{flexDirection: 'row'}}>
-      <Link href="/register"><Button type="primary" style={{marginRight: '20px'}}>Register</Button></Link>
-      <Link href="/login"><Button type="default">Login</Button></Link>
+      <div>
+
+        <div className='all-header' style={{ textAlign: 'center', color: 'white' }}>Projects</div>
+
+        <Row gutter={16} style={{ textAlign: 'left', color: 'white' }}>
+        <Col span={24}><h3 style={{ textAlign: 'center', color: 'white' }}>Contract Projects</h3></Col>
+        
+        <Col className='space' sm={24} md={12}>
+        <a href="https://realitypacesettersfoundation.ng" target='_blank'><img src='/avatar.webp' className='picture-style' title='Click to view' /></a>
+            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
+            <h4 style={{ color: 'white' }}>(Contract Job)</h4>
+            <a href="https://realitypacesettersfoundation.ng" target='_blank'>View Website</a>
+        </Col>
+
+          
+        </Row>
+
+        <Row gutter={16} style={{ textAlign: 'left', color: 'white' }}>
+        <Col span={24}><h3 style={{ textAlign: 'center', color: 'white' }}>Personal Projects</h3></Col>
+        
+        <Col className='space' sm={24} md={12}>
+        <a href="https://realitypacesettersfoundation.ng" target='_blank'><img src='/avatar.webp' className='picture-style' title='Click to view' /></a>
+            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
+            <h4 style={{ color: 'white' }}>(Contract Job)</h4>
+            <a href="https://realitypacesettersfoundation.ng" target='_blank'>View Website</a>
+        </Col>
+
+        <Col className='space' sm={24} md={12}>
+        <a href="https://realitypacesettersfoundation.ng" target='_blank'><img src='/avatar.webp' className='picture-style' title='Click to view' /></a>
+            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
+            <h4 style={{ color: 'white' }}>(Contract Job)</h4>
+            <a href="https://realitypacesettersfoundation.ng" target='_blank'>View Website</a>
+        </Col>
+
+        <Col className='space' sm={24} md={12}>
+        <a href="https://realitypacesettersfoundation.ng" target='_blank'><img src='/avatar.webp' className='picture-style' title='Click to view' /></a>
+            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
+            <h4 style={{ color: 'white' }}>(Contract Job)</h4>
+            <a href="https://realitypacesettersfoundation.ng" target='_blank'>View Website</a>
+        </Col>
+
+        <Col className='space' sm={24} md={12}>
+        <a href="https://realitypacesettersfoundation.ng" target='_blank'><img src='/avatar.webp' className='picture-style' title='Click to view' /></a>
+            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
+            <h4 style={{ color: 'white' }}>(Contract Job)</h4>
+            <a href="https://realitypacesettersfoundation.ng" target='_blank'>View Website</a>
+        </Col>
+        </Row>
       </div>
-      </div>
+      <style>
+        {`
+        .icon-style {
+          font-size: 40px;
+          color: white;
+        }
+        
+        .icon-style-two {
+          font-size: 50px;
+          color: white;
+          background-color: blue;
+          padding: 20px;
+          margin: 20px;
+          border-radius: 50%;
+        }
+
+        .text-white {
+          color: white;
+        }
+
+        .space {
+          margin: 20px 0;
+          text-align: center;
+        }
+
+        .picture-style {
+          width: 280px;
+          height: 200px;
+          border-radius: 10px;
+          border: 5px solid white;
+          margin-bottom: 20px;
+        }
+
+        `}
+      </style>
 
     </div>
   );
@@ -40,11 +101,9 @@ export default function RecipeReviewCard() {
 
 RecipeReviewCard.getLayout = function getLayout(page) {
   return (
-    <Provider store={store}>
-    <Layout>
-      {page}
-    </Layout>
-    </Provider>
+      <Layout>
+        {page}
+      </Layout>
   )
 }
 

@@ -1,29 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Space, Button, Row, Col, Drawer } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
-import Sidebar from '../Sidebar';
+import { Button } from 'antd';
 import Link from 'next/link';
-import axios from 'axios';
 import { HomeFilled } from '@ant-design/icons';
 
 export default function ResponsiveAppBar () {
 
-
-  const [visible, setVisible] = useState(false);
-  let [name, setName] = useState('');
-
-  const showDrawer = () => {
-    setVisible(true);
-  };
-
-  const onClose = () => {
-    setVisible(false);
-  };
-
-  // useEffect(async () => {
-  //   let res = await axios.get('users/profile', {headers: {token: localStorage.getItem('notesToken')}});
-  //   setName(res.data.user.fullName);
-  // });
 
   return (
     <div style={{height: '8vh',
@@ -35,10 +16,10 @@ export default function ResponsiveAppBar () {
     minHeight: '50px',
     justifyContent: 'space-between'
   }}>
-      <Link href="/"><h2 style={{color: 'white', zIndex: '100', pointer: 'cursor'}}>VNote</h2></Link>
+      <Link href="/"><h2 style={{color: 'white', zIndex: '100', cursor: 'pointer'}}>V{'{ict}'}or</h2></Link>
       <div style={{color: 'white', zIndex: '100'}}> 
       <Link href='/'><Button type="link"><HomeFilled /></Button></Link>
-       <Link href='/about'><Button type="link" style={{border: '1px solid blue'}}>About</Button></Link></div>
+       <Link href='/contact'><Button type="link" style={{border: '1px solid blue'}}>Contact Me</Button></Link></div>
       <style jsx>
         {`
 
