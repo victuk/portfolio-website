@@ -63,7 +63,7 @@ export default function RecipeReviewCard() {
           </Col>
 
           <Col className='space' sm={24} md={12}>
-            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO) <Link href="https://realitypacesettersfoundation.ng">Website</Link></h3>
+            <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO) <Link href='https://realitypacesettersfoundation.ng'>Website</Link></h3>
             <h4 style={{ color: 'white' }}>Full Stack Web Developer (Contract Job)</h4>
             <div>December 2021 (1 month)</div>
             <ul>

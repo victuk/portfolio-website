@@ -24,21 +24,21 @@ export default function RecipeReviewCard() {
   return (
     <div>
       <div style={{ textAlign: 'center' }}>
-        <Image src='/profile-picture.jpg' height='200px' width='200px' className='image-style' />
+        <Image src='/profile-picture.jpg' height='200px' width='200px' className='image-style' alt='Picture of Victor' />
         
         <Title style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I am, Victor Peter</Title>
         <h3 style={{ zIndex: 'inherit', color: 'white' }}>ukokjnr@gmail.com</h3>
         <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I'm a web developer. I use MERN and MEVN stacks.</div>
         <div style={{ textAlign: 'center', padding: '20px 0' }}>
-          <Link href='https://www.instagram.com/victor_p3t3r/'><InstagramFilled className="icon-style" /></Link>
-          <Link href='https://twitter.com/ukokjnr'><TwitterSquareFilled className="icon-style" /></Link>
-          <Link href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className="icon-style" /></Link>
+          <Link href='https://www.instagram.com/victor_p3t3r/'><InstagramFilled className='icon-style' /></Link>
+          <Link href='https://twitter.com/ukokjnr'><TwitterSquareFilled className='icon-style' /></Link>
+          <Link href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
         </div>
         <Row style={{ textAlign: 'center' }}>
         <Col xs={12} sm={4} md={4}>
             <Link href='/personal-life'>
               <div>
-                <UserOutlined className="icon-style-two" />
+                <UserOutlined className='icon-style-two' />
                 <h3 className='text-white'>Personal Life</h3>
               </div>
             </Link>
@@ -47,7 +47,7 @@ export default function RecipeReviewCard() {
           <Col xs={12} sm={4} md={4}>
             <Link href='/education'>
               <div>
-                <SolutionOutlined className="icon-style-two" />
+                <SolutionOutlined className='icon-style-two' />
                 <h3 className='text-white'>Education</h3>
               </div>
             </Link>
@@ -56,7 +56,7 @@ export default function RecipeReviewCard() {
           <Col xs={12} sm={4} md={4}>
             <Link href='/experiences'>
               <div>
-                <HistoryOutlined className="icon-style-two" />
+                <HistoryOutlined className='icon-style-two' />
                 <h3 className='text-white'>Experiences</h3>
               </div>
             </Link>
@@ -65,7 +65,7 @@ export default function RecipeReviewCard() {
           <Col xs={12} sm={4} md={4}>
             <Link href='/skills'>
               <div>
-                <CodeOutlined className="icon-style-two" />
+                <CodeOutlined className='icon-style-two' />
                 <h3 className='text-white'>Skills</h3>
               </div>
             </Link>
