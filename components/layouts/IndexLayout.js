@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import { Row, Col } from 'antd';
 import React from 'react';
 import Head from 'next/head';
@@ -11,10 +11,10 @@ export default function DefaultLayout({children}) {
 
     <Head>
         <title>Victor Peter Ukok</title>
-        <link rel="icon" href="/profile-picture.jpg" />
+        <link rel='icon' href='/profile-picture.jpg' />
       </Head>
    
-    <Image src="/beautiful-wallpaper.jpg" layout="fill" className="bg" />
+    <Image src='/beautiful-wallpaper.jpg' layout='fill' className='bg' alt='Background Picture' />
 
 <main>
 
