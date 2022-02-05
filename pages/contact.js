@@ -21,26 +21,26 @@ export default function RecipeReviewCard() {
 
         <div className='default-container'>
           <div className='space'>
-          <a href='https://www.instagram.com/victor_p3t3r/' target='_blank'>
+          <a href='https://www.instagram.com/victor_p3t3r/' target='_blank' rel="noreferrer">
             <div><InstagramFilled className="icon-style" /> <span className='contact-font-size'>victor_p3t3r</span></div>
             
             </a>
           </div>
           <div className='space'>
-          <a href='https://twitter.com/ukokjnr' target='_blank'>
+          <a href='https://twitter.com/ukokjnr' target='_blank' rel="noreferrer">
             <div><TwitterSquareFilled className="icon-style" /> <span className='contact-font-size'>@ukokjnr</span></div>
             
             </a>
           </div>
           <div className='space'>
-          <a href='https://www.linkedin.com/in/victor-ukok/' target='_blank'>
+          <a href='https://www.linkedin.com/in/victor-ukok/' target='_blank' rel="noreferrer">
             <div>
             <LinkedinFilled className="icon-style" /> <span className='contact-font-size'>victor-ukok</span>
             </div>
             </a>
           </div>
           <div className='space'>
-          <a href='https://ukokjnr@gmail.com' target='_blank'>
+          <a href='https://ukokjnr@gmail.com' target='_blank' rel="noreferrer">
             <div>
             <MailFilled className="icon-style" /> <span className='contact-font-size'>ukokjnr@gmail.com</span>
             </div>

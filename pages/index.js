@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Row, Col } from 'antd';
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout from '../components/layouts/IndexLayout';
 import {
   InstagramFilled,
@@ -23,7 +24,8 @@ export default function RecipeReviewCard() {
   return (
     <div>
       <div style={{ textAlign: 'center' }}>
-        <img src='/profile-picture.jpg' style={{ zIndex: '2', height: '200px', width: '200px', borderRadius: '50%', border: '5px solid white' }} />
+        <Image src='/profile-picture.jpg' height='200px' width='200px' className='image-style' />
+        
         <Title style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I am, Victor Peter</Title>
         <h3 style={{ zIndex: 'inherit', color: 'white' }}>ukokjnr@gmail.com</h3>
         <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I'm a web developer. I use MERN and MEVN stacks.</div>
@@ -129,6 +131,11 @@ export default function RecipeReviewCard() {
           cursor: pointer;
         }
 
+        .image-style {
+          z-index: 2;
+          border-radius: 50%;
+          text-align: center;
+        }
 
         `}
       </style>
