@@ -6,7 +6,7 @@ import Nav from '../navs/IndexNav';
 
 export default function DefaultLayout({children}) {
   return (
-    <div style={{height: '100vh', position: 'fixed'}}>
+    <div style={{height: '100vh'}}>
     <Nav />
 
     <Head>
@@ -27,6 +27,7 @@ export default function DefaultLayout({children}) {
         {`
         .bg {
           filter: brightness(0.2);
+          height: 100vh;
         }
         `}
       </style>
