@@ -34,7 +34,7 @@ export default function RecipeReviewCard() {
           <Link passHref href='https://twitter.com/ukokjnr'><TwitterSquareFilled className='icon-style' /></Link>
           <Link passHref href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
         </div>
-        <Row style={{ textAlign: 'center', marginBottom: '20px' }}>
+        <Row className='bottom-margin-mobile' style={{ textAlign: 'center' }}>
         <Col xs={12} sm={4} md={4}>
             <Link passHref href='/personal-life'>
               <div>
@@ -135,6 +135,12 @@ export default function RecipeReviewCard() {
           z-index: 2;
           border-radius: 50%;
           text-align: center;
+        }
+
+        @media (max-width: 425px) {
+          .bottom-margin-mobile {
+            margin-bottom: 20px;
+          }
         }
 
         `}
