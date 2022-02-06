@@ -16,10 +16,10 @@ export default function ResponsiveAppBar () {
     minHeight: '50px',
     justifyContent: 'space-between'
   }}>
-      <Link href="/"><h2 style={{color: 'white', zIndex: '100', cursor: 'pointer'}}>V{'{ict}'}or</h2></Link>
+      <Link href="/" passHref><h2 style={{color: 'white', zIndex: '100', cursor: 'pointer'}}>V{'{ict}'}or</h2></Link>
       <div style={{color: 'white', zIndex: '100'}}> 
-      <Link href='/'><Button type="link"><HomeFilled /></Button></Link>
-       <Link href='/contact'><Button type="link" style={{border: '1px solid blue'}}>Contact Me</Button></Link></div>
+      <Link href='/' passHref><Button type="link"><HomeFilled /></Button></Link>
+       <Link href='/contact' passHref><Button type="link" style={{border: '1px solid blue'}}>Contact Me</Button></Link></div>
       <style jsx>
         {`
 

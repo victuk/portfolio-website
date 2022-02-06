@@ -17,7 +17,7 @@ export default function RecipeReviewCard() {
         <div>
         <h3 style={{color: 'white'}}>Little History</h3>
           <p>
-          Owkay, listen up. My name is Victor Peter Ukok, I`'`m a web developer, drummer, optimist and a non-commercial commedian . 
+          Owkay, listen up. My name is Victor Peter Ukok, I&apos;m a web developer, drummer, optimist and a non-commercial commedian . 
           At the age of 12 my I started using a Computer, I started with a desktop Computer (Windows XP), by then I was taught my by father about 
           how to use Microsoft Word to type some documents, make letter heads, save documents and some other basic things (i felt like Bill Gate back then sha), 
           then, I pretty much figured out other things (how to create folder, create files, play music, etc) on my own.
@@ -25,19 +25,19 @@ export default function RecipeReviewCard() {
           <p>
             One of my cousin named Solomon came to stay with me when I was 13 years old, after some few weeks he was enrolled in a computer school 
             and then he was given a laptop. So, I also learnt from him during his training at the computer school he attended. 
-            During his training my I got a laptop from my dad (spec was 2GB RAM, around 60GB hard disk if youre not laughing you're a cultist =)) ). After some few months the laptop crashed due 
+            During his training my I got a laptop from my dad (spec was 2GB RAM, around 60GB hard disk if youre not laughing you&apos;re a cultist =)) ). After some few months the laptop crashed due 
             to overloading it with unnecessary software. I learnt how to install softwares without assistance and I also understood the effect of loading up your laptop with unnecessary software.
-            During the 6th month of his training, my cousin started learning about the basics of Web development (HTML and CSS). Well, I'll stop here for now... 
+            During the 6th month of his training, my cousin started learning about the basics of Web development (HTML and CSS). Well, I&apos;ll stop here for now... 
             If you want to know more, <Link href='/personal-life#how-i-started-programming-web-dev'>click here</Link> 
           </p>
           <p>
             Let me talk about how I started music, shall we?
             Ok, I was taught the rudiments of music from my family church (The Salvation Army, Calabar) by Mr. Benson. I started out playing the keyboard, then, I enrolled in 
-            Resue School Of Music, Calabar where I choose to learn play drums (I choose drums cus I was inspired by someone I watched playing drums, Tega Omene). That's 
+            Resue School Of Music, Calabar where I choose to learn play drums (I choose drums cus I was inspired by someone I watched playing drums, Tega Omene). That&apos;s 
             how the journey began.
           </p>
           <p>
-            I`'`ve also learnt other things like sign-writing, installing satellite dishes, etc.
+            I&apos;ve also learnt other things like sign-writing, installing satellite dishes, etc.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export default function RecipeReviewCard() {
           <p>
           You remember I talked about my cousin learning about HTML and CSS in a computer school? I used to read his manual, then 
           I downloaded books, I also pid someone to learn about Android. At my SS2 I made a simple Android app that had some few Physics laws, their fomular 
-          and a simple picture to illustrate the law (I did this with a 4GB RAM intel Pentium laptop, running emulator and bundling the app wasn't easy at all tho). I shared it with 
+          and a simple picture to illustrate the law (I did this with a 4GB RAM intel Pentium laptop, running emulator and bundling the app wasn&apos;t easy at all tho). I shared it with 
           some of my classmates back then and they were impressed.
           </p>
           <p>
