@@ -26,7 +26,7 @@ export default function RecipeReviewCard() {
       <div style={{ textAlign: 'center' }}>
         <Image src='/profile-picture.jpg' height='200px' width='200px' className='image-style' alt='Picture of Victor' />
         
-        <Title style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I am, Victor Peter</Title>
+        <Title style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I am, Victor Ukok</Title>
         <h3 style={{ zIndex: 'inherit', color: 'white' }}>ukokjnr@gmail.com</h3>
         <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I&apos;m a web developer. I use MERN and MEVN stacks.</div>
         <div style={{ textAlign: 'center', padding: '20px 0' }}>
@@ -34,7 +34,7 @@ export default function RecipeReviewCard() {
           <Link passHref href='https://twitter.com/ukokjnr'><TwitterSquareFilled className='icon-style' /></Link>
           <Link passHref href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
         </div>
-        <Row style={{ textAlign: 'center' }}>
+        <Row style={{ textAlign: 'center', marginBottom: '20px' }}>
         <Col xs={12} sm={4} md={4}>
             <Link passHref href='/personal-life'>
               <div>
