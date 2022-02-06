@@ -91,6 +91,15 @@ export default function RecipeReviewCard() {
           .default-container {
             width: 100%;
           }
+          .icon-style {
+            font-size: 20px;
+            color: white;
+          }
+          .contact-font-size {
+            font-size: 15px;
+            color: white;
+            margin-left: 10px;
+          }
         }
 
         `}
