@@ -16,7 +16,7 @@ export default function RecipeReviewCard() {
         <Col span={24}><h3 style={{ textAlign: 'center', color: 'white' }}>Contract Projects</h3></Col>
         
         <Col className='space' sm={24} md={12}>
-        <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer"><Image src='/note-background.jpg' width='280' height='200' className='picture-style' title='Click to view' alt='Reality Pacesetters Foundation' /></a>
+        <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer"><Image src='/project-pictures/reality-pacesetters.png' width='280' height='150' className='picture-style' title='Click to view' alt='Reality Pacesetters Foundation' /></a>
             <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
             <h4 style={{ color: 'white' }}>(Contract Job)</h4>
             <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer">View Website</a>
@@ -43,17 +43,17 @@ export default function RecipeReviewCard() {
         </Col>
 
         <Col className='space' sm={24} md={12}>
-        <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer"><Image src='/note-background.jpg' width='280' height='200' className='picture-style' title='Click to view' alt='reality pace' /></a>
+        <a href='https://realitypacesettersfoundation.ng' target='_blank' rel='noreferrer'><Image src='/note-background.jpg' width='280' height='200' className='picture-style' title='Click to view' alt='reality pace' /></a>
             <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
             <h4 style={{ color: 'white' }}>(Contract Job)</h4>
-            <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer">View Website</a>
+            <a href='https://realitypacesettersfoundation.ng' target='_blank' rel='noreferrer'>View Website</a>
         </Col>
 
         <Col className='space' sm={24} md={12}>
-        <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer"><Image src='/note-background.jpg' width='280' height='200' className='picture-style' title='Click to view' alt='reality pace' /></a>
+        <a href='https://realitypacesettersfoundation.ng' target='_blank' rel='noreferrer'><Image src='/note-background.jpg' width='280' height='200' className='picture-style' title='Click to view' alt='reality pace' /></a>
             <h3 style={{ color: 'white' }}>Reality Pace Setters Foundation (NGO)</h3>
             <h4 style={{ color: 'white' }}>(Contract Job)</h4>
-            <a href='https://realitypacesettersfoundation.ng' target='_blank' rel="noreferrer">View Website</a>
+            <a href='https://realitypacesettersfoundation.ng' target='_blank' rel='noreferrer'>View Website</a>
         </Col>
         </Row>
       </div>
