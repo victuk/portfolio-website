@@ -6,7 +6,7 @@ import Nav from '../navs/IndexNav';
 
 export default function DefaultLayout({children}) {
   return (
-    <div style={{height: '100vh'}}>
+    <div style={{height: '100vh', position: 'fixed'}}>
     <Nav />
 
     <Head>
