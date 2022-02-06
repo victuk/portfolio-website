@@ -28,15 +28,15 @@ export default function RecipeReviewCard() {
         
         <Title style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I am, Victor Peter</Title>
         <h3 style={{ zIndex: 'inherit', color: 'white' }}>ukokjnr@gmail.com</h3>
-        <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I`'`m a web developer. I use MERN and MEVN stacks.</div>
+        <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I&apos;m a web developer. I use MERN and MEVN stacks.</div>
         <div style={{ textAlign: 'center', padding: '20px 0' }}>
-          <Link href='https://www.instagram.com/victor_p3t3r/'><InstagramFilled className='icon-style' /></Link>
-          <Link href='https://twitter.com/ukokjnr'><TwitterSquareFilled className='icon-style' /></Link>
-          <Link href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
+          <Link passHref href='https://www.instagram.com/victor_p3t3r/'><InstagramFilled className='icon-style' /></Link>
+          <Link passHref href='https://twitter.com/ukokjnr'><TwitterSquareFilled className='icon-style' /></Link>
+          <Link passHref href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
         </div>
         <Row style={{ textAlign: 'center' }}>
         <Col xs={12} sm={4} md={4}>
-            <Link href='/personal-life'>
+            <Link passHref href='/personal-life'>
               <div>
                 <UserOutlined className='icon-style-two' />
                 <h3 className='text-white'>Personal Life</h3>
@@ -45,7 +45,7 @@ export default function RecipeReviewCard() {
           </Col>
           
           <Col xs={12} sm={4} md={4}>
-            <Link href='/education'>
+            <Link passHref href='/education'>
               <div>
                 <SolutionOutlined className='icon-style-two' />
                 <h3 className='text-white'>Education</h3>
@@ -54,7 +54,7 @@ export default function RecipeReviewCard() {
           </Col>
 
           <Col xs={12} sm={4} md={4}>
-            <Link href='/experiences'>
+            <Link passHref href='/experiences'>
               <div>
                 <HistoryOutlined className='icon-style-two' />
                 <h3 className='text-white'>Experiences</h3>
@@ -63,7 +63,7 @@ export default function RecipeReviewCard() {
           </Col>
 
           <Col xs={12} sm={4} md={4}>
-            <Link href='/skills'>
+            <Link passHref href='/skills'>
               <div>
                 <CodeOutlined className='icon-style-two' />
                 <h3 className='text-white'>Skills</h3>
@@ -72,7 +72,7 @@ export default function RecipeReviewCard() {
           </Col>
 
           <Col xs={12} sm={4} md={4}>
-            <Link href='/projects'>
+            <Link passHref href='/projects'>
               <div>
                 <FolderOutlined className="icon-style-two" />
                 <h3 className='text-white'>Projects</h3>
@@ -81,7 +81,7 @@ export default function RecipeReviewCard() {
           </Col>
 
           <Col xs={12} sm={4} md={4}>
-            <Link href='/certificates-awards'>
+            <Link passHref href='/certificates-awards'>
               <div>
                 <FileDoneOutlined className="icon-style-two" />
                 <h3 className='text-white'>Certificates/Awards</h3>
