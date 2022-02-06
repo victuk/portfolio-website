@@ -27,7 +27,14 @@ export default function DefaultLayout({children}) {
         {`
         .bg {
           filter: brightness(0.2);
-          overflow: hidden;
+        }
+
+        @media (max-width: 425px) {
+          .bg {
+            filter: brightness(0.2);
+            min-width: 800px!important;
+            overflow: hidden;
+          }
         }
         `}
       </style>
