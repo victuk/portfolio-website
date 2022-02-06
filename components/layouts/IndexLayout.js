@@ -27,6 +27,7 @@ export default function DefaultLayout({children}) {
         {`
         .bg {
           filter: brightness(0.2);
+          overflow: hidden;
         }
         `}
       </style>

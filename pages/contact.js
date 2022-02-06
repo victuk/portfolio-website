@@ -15,7 +15,7 @@ export default function RecipeReviewCard() {
       <div>
 
         <div className='all-header' style={{ textAlign: 'center', color: 'white' }}>Contact Me</div>
-        <p>
+        <p style={{color: 'white'}}>
           You can contact me vis the following platforms:
         </p>
 
