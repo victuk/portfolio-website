@@ -33,7 +33,7 @@ export default function RecipeReviewCard() {
             <h3 style={{ color: 'white' }}>VNote</h3>
             <h4 style={{ color: 'white' }}>Short note taking website.</h4>
             <a href='https://vnoteapp.netlify.app/' target='_blank' rel="noreferrer">View Website</a><br />
-            <a href='https://www.postman.com/Victor-peter/workspace/vnote/request/9557443-9dbdbd58-9359-4b9e-a9ab-cdecc671ed8b' target='_blank' rel="noreferrer">View API Documentation</a><br />
+            <a href='https://www.postman.com/Victor-peter/workspace/vpublic-documentation/collection/9557443-92ebd656-f2d3-4d43-a195-d02c62c283d1?ctx=documentation' target='_blank' rel="noreferrer">View API Documentation</a><br />
             <a href='https://github.com/victuk/note-taking-project' target='_blank' rel="noreferrer">View Frontend on GitHub</a><br />
             <a href='https://github.com/victuk/Note-taking-api' target='_blank' rel="noreferrer">View Backend on GitHub</a>
         </Col>
