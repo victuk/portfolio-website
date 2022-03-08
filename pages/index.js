@@ -27,7 +27,7 @@ export default function RecipeReviewCard() {
         <Image src='/profile-picture.jpg' height='200px' width='200px' className='image-style' alt='Picture of Victor' />
         
         <Title style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I am, Victor Ukok</Title>
-        <h3 style={{ zIndex: 'inherit', color: 'white' }}>ukokjnr@gmail.com</h3>
+        <h3 style={{ zIndex: 'inherit', color: 'white' }}>mfreke.victor@gmail.com</h3>
         <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I&apos;m a web developer. I use MERN and MEVN stacks.</div>
         <div style={{ textAlign: 'center', padding: '20px 0' }}>
           <Link passHref href='https://www.instagram.com/victor_p3t3r/'><InstagramFilled className='icon-style' /></Link>
