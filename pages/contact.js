@@ -40,9 +40,9 @@ export default function RecipeReviewCard() {
             </a>
           </div>
           <div className='space'>
-          <a href='https://ukokjnr@gmail.com' target='_blank' rel='noreferrer'>
+          <a href='https://mfreke.victor@gmail.com' target='_blank' rel='noreferrer'>
             <div>
-            <MailFilled className="icon-style" /> <span className='contact-font-size'>ukokjnr@gmail.com</span>
+            <MailFilled className="icon-style" /> <span className='contact-font-size'>mfreke.victor@gmail.com</span>
             </div>
             </a>
           </div>
