@@ -12,7 +12,7 @@ export default function RecipeReviewCard() {
         <div className='all-header' style={{ textAlign: 'center', color: 'white' }}>Experiences</div>
 
         <Row gutter={16} style={{ textAlign: 'left', color: 'white' }}>
-          <Col className='space' sm={24} md={12}>
+          {/* <Col className='space' sm={24} md={12}>
             <h3 style={{ color: 'white' }}>AfricInnovate Hub, Eket</h3>
             <h4 style={{ color: 'white' }}>Full stack web developer (Intern)</h4>
             <div>Oct 2021 - Present</div>
@@ -22,6 +22,18 @@ export default function RecipeReviewCard() {
               <li>Teach new students HTML5, CSS3, Javascript basics and make sure they are able to build responsive
                 landing pages within 2 weeks.</li>
               <li>Cut down the workload of other interns by 70% by helping them refactor their code.</li>
+            </ul>
+          </Col> */}
+
+          <Col className='space' sm={24} md={12}>
+            <h3 style={{ color: 'white' }}>Fhenix Africa</h3>
+            <h4 style={{ color: 'white' }}>Web Developer Trainer</h4>
+            <div>May, 2023 - Present</div>
+            <ul>
+              <li>Teach over 10 and most are coming from a large button</li>
+              {/* <li>Teach new students HTML5, CSS3, Javascript basics and make sure they are able to build responsive
+                landing pages within 2 weeks.</li> */}
+              {/* <li>Cut down the workload of other interns by 70% by helping them refactor their code.</li> */}
             </ul>
           </Col>
 
