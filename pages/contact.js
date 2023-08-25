@@ -27,7 +27,7 @@ export default function RecipeReviewCard() {
             </a>
           </div>
           <div className='space'>
-          <a href='https://twitter.com/ukokjnr' target='_blank' rel='noreferrer'>
+          <a href='https://twitter.com/veektor_v' target='_blank' rel='noreferrer'>
             <div><TwitterSquareFilled className="icon-style" /> <span className='contact-font-size'>@ukokjnr</span></div>
             
             </a>
