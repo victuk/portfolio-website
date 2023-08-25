@@ -31,7 +31,7 @@ export default function RecipeReviewCard() {
         <div style={{ zIndex: 'inherit', color: 'white', textAlign: 'center' }}>I&apos;m a web developer. I use MERN and MEVN stacks.</div>
         <div style={{ textAlign: 'center', padding: '20px 0' }}>
           <Link passHref href='https://www.instagram.com/victor_p3t3r/'><InstagramFilled className='icon-style' /></Link>
-          <Link passHref href='https://twitter.com/ukokjnr'><TwitterSquareFilled className='icon-style' /></Link>
+          <Link passHref href='https://twitter.com/veektor_v'><TwitterSquareFilled className='icon-style' /></Link>
           <Link passHref href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
         </div>
         <Row className='bottom-margin-mobile' style={{ textAlign: 'center' }}>
