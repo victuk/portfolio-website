@@ -12,7 +12,9 @@ import {
   FolderOutlined,
   UserOutlined,
   SolutionOutlined,
-  HistoryOutlined
+  HistoryOutlined,
+  YoutubeOutlined,
+  FileOutlined
 } from '@ant-design/icons';
 
 const { Title } = Typography;
@@ -35,7 +37,7 @@ export default function RecipeReviewCard() {
           <Link passHref href='https://www.linkedin.com/in/victor-ukok/'><LinkedinFilled className='icon-style' /></Link>
         </div>
         <Row className='bottom-margin-mobile' style={{ textAlign: 'center' }}>
-        <Col xs={12} sm={4} md={4}>
+        <Col xs={12} sm={6} md={3}>
             <Link passHref href='/personal-life'>
               <div>
                 <UserOutlined className='icon-style-two' />
@@ -44,7 +46,7 @@ export default function RecipeReviewCard() {
             </Link>
           </Col>
           
-          <Col xs={12} sm={4} md={4}>
+          <Col xs={12} sm={6} md={3}>
             <Link passHref href='/education'>
               <div>
                 <SolutionOutlined className='icon-style-two' />
@@ -53,7 +55,7 @@ export default function RecipeReviewCard() {
             </Link>
           </Col>
 
-          <Col xs={12} sm={4} md={4}>
+          <Col xs={12} sm={6} md={3}>
             <Link passHref href='/experiences'>
               <div>
                 <HistoryOutlined className='icon-style-two' />
@@ -62,7 +64,7 @@ export default function RecipeReviewCard() {
             </Link>
           </Col>
 
-          <Col xs={12} sm={4} md={4}>
+          <Col xs={12} sm={6} md={3}>
             <Link passHref href='/skills'>
               <div>
                 <CodeOutlined className='icon-style-two' />
@@ -71,7 +73,7 @@ export default function RecipeReviewCard() {
             </Link>
           </Col>
 
-          <Col xs={12} sm={4} md={4}>
+          <Col xs={12} sm={6} md={3}>
             <Link passHref href='/projects'>
               <div>
                 <FolderOutlined className="icon-style-two" />
@@ -80,11 +82,29 @@ export default function RecipeReviewCard() {
             </Link>
           </Col>
 
-          <Col xs={12} sm={4} md={4}>
+          <Col xs={12} sm={6} md={3}>
             <Link passHref href='/certificates-awards'>
               <div>
                 <FileDoneOutlined className="icon-style-two" />
                 <h3 className='text-white'>Certificates/Awards</h3>
+              </div>
+            </Link>
+          </Col>
+
+          <Col xs={12} sm={6} md={3}>
+            <a href='https://dev.to/victuk' target='_blank'>
+              <div>
+                <FileOutlined className="icon-style-two" />
+                <h3 className='text-white'>Dev.to Posts</h3>
+              </div>
+            </a>
+          </Col>
+
+          <Col xs={12} sm={6} md={3}>
+            <Link passHref href='/lessonvideos'>
+              <div>
+                <YoutubeOutlined className="icon-style-two" />
+                <h3 className='text-white'>JavaScript/NodeJS Videos</h3>
               </div>
             </Link>
           </Col>
