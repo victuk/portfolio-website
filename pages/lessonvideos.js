@@ -12,7 +12,7 @@ export default function RecipeReviewCard() {
 
         <div className='all-header' style={{ textAlign: 'center', color: 'white' }}>Lesson Videos</div>
 
-        <Row gutter={16} style={{ textAlign: 'left', color: 'white' }}>
+        <Row gutter={16} style={{ textAlign: 'left', color: 'white', marginTop: "80px" }}>
           <Col span={24}><h2 style={{ textAlign: 'center', color: 'white' }}>JavaScript/NodeJS Lesson Videos</h2></Col>
 
 
@@ -60,8 +60,8 @@ export default function RecipeReviewCard() {
 
         </Row>
 
-        <Row gutter={16} style={{ textAlign: 'left', color: 'white' }}>
-          <Col span={24}><h3 style={{ textAlign: 'center', color: 'white' }}>Express JS Lesson Videos</h3></Col>
+        <Row gutter={16} style={{ textAlign: 'left', color: 'white', marginTop: "80px" }}>
+          <Col span={24}><h2 style={{ textAlign: 'center', color: 'white' }}>Express JS Lesson Videos</h2></Col>
 
           <Col className='space' sm={24} md={6}>
             <iframe className='youtube-video' src="https://www.youtube.com/embed/RhQtfOXLFAw?si=shWsWsElLJhoA2Gr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; fullscreen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
