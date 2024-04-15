@@ -92,7 +92,7 @@ export default function RecipeReviewCard() {
           </Col>
 
           <Col xs={12} sm={6} md={3}>
-            <a href='https://dev.to/victuk' target='_blank'>
+            <a href='https://dev.to/victuk' target='_blank' rel="noreferrer">
               <div>
                 <FileOutlined className="icon-style-two" />
                 <h3 className='text-white'>Dev.to Posts</h3>
